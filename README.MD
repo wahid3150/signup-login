@@ -43,6 +43,7 @@ This project implements a user registration and login system using JSON Web Toke
    npm install
    ```
 4. Create a .env file in the root directory and add the following environment variables:
+   ```bash
    PORT=3000
    JWT_SECRET=your_jwt_secret
    MONGODB_URI=your_mongodb_connection_string
